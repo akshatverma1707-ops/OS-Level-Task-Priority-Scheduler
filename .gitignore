@@ -1,0 +1,37 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+bin/
+obj/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+*.tmp
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
